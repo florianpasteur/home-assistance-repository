@@ -5,3 +5,7 @@ addons:
     repository: portainer/portainer
     target: portainer
     image: registry.hub.docker.com/library/portainer/portainer
+  hello-world:
+    repository: hello-world
+    target: hello-world
+    image: hello-world
