@@ -1,0 +1,21 @@
+arch:
+- aarch64
+- amd64
+- armhf
+- armv7
+- i386
+codenotary: codenotary@frenck.dev
+description: Portainer
+hassio_api: true
+image: portainer/portainer
+ingress: true
+ingress_stream: true
+init: false
+name: portainer
+panel_icon: mdi:database
+schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  upload_limit: int?
+slug: portainer
+url: https://hub.docker.com/r/portainer/portainer
+version: 0.8.1
