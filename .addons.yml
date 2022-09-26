@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  portainer:
+    repository: portainer/portainer
+    target: portainer
+    image: portainer/portainer
