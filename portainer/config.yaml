@@ -7,7 +7,7 @@ arch:
 codenotary: codenotary@frenck.dev
 description: Portainer
 hassio_api: true
-image: portainer/portainer
+image: registry.hub.docker.com/library/portainer/portainer
 ingress: true
 ingress_stream: true
 init: false

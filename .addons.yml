@@ -4,4 +4,4 @@ addons:
   portainer:
     repository: portainer/portainer
     target: portainer
-    image: portainer/portainer
+    image: registry.hub.docker.com/library/portainer/portainer
